@@ -14,6 +14,9 @@ function main(){
 
 function addTranceBtn(lower,com){
     let l = com.length;
+    if(lower == 0 && com[0].parentElement.className == "sc-1u8nu73-5 bbNZID"){
+        lower += 1;
+    }
     for(let i=lower;i<l;i++){
         const comRes = com[i].parentElement.parentElement.children[2];
         const space = document.createElement("span");
