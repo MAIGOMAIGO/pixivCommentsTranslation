@@ -5,7 +5,7 @@ function main(){
         const com = document.getElementsByClassName("sc-eyxzap-0 iFFcXi");
         if(com != null){
             clearInterval(comCheckTime);
-            let lower = 1;
+            let lower = 0;
             lower = addTranceBtn(lower,com);
             waitClickBtn(lower);
         }
@@ -42,14 +42,14 @@ function addTranceBtn(lower,com){
                         }
                     }
                 };
-                xhr.open('POST', 'https://script.google.com/macros/s/AKfycbxI_8pfYGuT2xhBhmDILmcpA4phAFggneNloxkuPlrVOdbJcXQuWt02Rdn0UCE0UTo5/exec', true);
+                xhr.open('POST', 'https://script.google.com/macros/s/AKfycbw6qyTLxwQNOvTGy9KGgXO3VHWHF8fBKWdT81YL--kV9QEQT0-tBXZO03AtH4CEO1xy/exec', true);
                 xhr.setRequestHeader('content-type', 'application/x-www-form-urlencoded;charset=UTF-8');
                 const language = (window.navigator.languages && window.navigator.languages[0]) ||
                 window.navigator.language ||
                 window.navigator.userLanguage ||
                 window.navigator.browserLanguage;
-                const request = "text=" + comText + "&language=" + language;
-                xhr.send(comText);
+                const request = language+","+comText;
+                xhr.send(request);
             }else{
                 if(comChild.attributes['data-defaultValue']){
                     comChild.innerText = comChild.getAttribute('data-defaultValue');
