@@ -5,9 +5,9 @@
 
 Download ZIPで自分の好きなディレクトリにファイルをダウンロードし、解凍する。（画像ではドキュメントに展開している。）
 
-![](README_IMAGE\Download.png)
+![Download ZIP](README_IMAGE\Download.png)
 
-![](README_IMAGE/defrost.png)
+![Unzip to document](README_IMAGE/defrost.png)
 
 **手順2** chromeの拡張機能に導入
 
