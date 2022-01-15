@@ -7,7 +7,7 @@ Download ZIPで自分の好きなディレクトリにファイルをダウン�
 
 ![Download ZIP](README_IMAGE/Download.png)
 
-![Unzip to document](README_IMAGE/defrost.png)
+![Unzip to Document](README_IMAGE/defrost.png)
 
 **手順2** chromeの拡張機能に導入
 
