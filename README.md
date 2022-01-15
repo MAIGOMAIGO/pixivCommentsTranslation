@@ -5,7 +5,7 @@
 
 Download ZIPで自分の好きなディレクトリにファイルをダウンロードし、解凍する。（画像ではドキュメントに展開している。）
 
-![Download ZIP](README_IMAGE\Download.png)
+![Download ZIP](README_IMAGE/Download.png)
 
 ![Unzip to document](README_IMAGE/defrost.png)
 
