@@ -13,13 +13,27 @@ Download ZIPで自分の好きなディレクトリにファイルをダウン�
 
 chromeを起動してchrome://extensions/と打つか、設定の拡張機能のとこから表示する。
 
-パッケージ化されていない拡張機能を読み込むを押し、先ほど展開したファイルを選択する。
+参考URL:https://support.google.com/chrome_webstore/answer/2664769
+
+「パッケージ化されていない拡張機能を読み込む」を押し、先ほど展開したファイルを選択する。
+
+![Extensions](README_IMAGE/Extensions.png)
+
+展開の仕方によっては以下のようなディレクトリになるが、取り敢えずREADME_IMAGEが見える状態でフォルダーの選択を押せばOK
+
+![fileSelect](README_IMAGE/fileSelect.png)
+
+成功したら以下のような状態になる。
+
+![success](README_IMAGE/success.png)
 
 #### 使い方
 
 上記の手順に従いchrome拡張機能に導入したらpixivのページを開くと勝手に起動します。
 
 コメントのちょっと下に「翻訳」と表示されているので、その文字を押すと元あったコメントの上に翻訳結果を表示します。翻訳結果にコメントが変わった時に「翻訳」が「戻す」になるのでもう一度押すと元のコメントに戻ります。
+
+![Before](README_IMAGE/Before.png)![After](README_IMAGE/After.png)
 
 #### 注意点
 
